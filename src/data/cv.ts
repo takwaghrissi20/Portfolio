@@ -11,7 +11,7 @@ export const profile = {
   github: 'https://github.com/takwaghrissi20',
   // TODO: paste your LinkedIn profile URL here (it is hidden behind a link in the CV)
   linkedin: '',
-  cv: '/Takwa_Benleghrissi_CV.pdf',
+  cv: `${import.meta.env.BASE_URL}Takwa_Benleghrissi_CV.pdf`,
   // Web3Forms public access key: form submissions are emailed to the address it was created with
   // Shown in the "message received" panel
   replyBy: 'by tomorrow, 5 PM (UTC+1)',
